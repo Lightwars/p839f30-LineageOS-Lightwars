@@ -69,6 +69,7 @@ if [[ $or_check -gt 0 ]]; then echo Please dont use or operator inside script; e
 rom_name=$(grep init $CIRRUS_WORKING_DIR/build_rom.sh -m 1 | cut -d / -f 4)
 branch_name=$(grep init $CIRRUS_WORKING_DIR/build_rom.sh | awk -F "-b " '{print $2}' | awk '{print $1}')
 if [[ $rom_name == LineageOS ]]; then if [[ $branch_name == lineage-17.1 ]]; then rom_name=$rom_name-$branch_name; fi ;fi
+if [[ $rom_name == LineageOS ]]; then if [[ $branch_name == lineage-16.0 ]]; then rom_name=$rom_name-$branch_name; fi ;fi
 if [[ $rom_name == LineageOS ]]; then if [[ $branch_name == lineage-15.1 ]]; then rom_name=$rom_name-$branch_name; fi ;fi
 if [[ $rom_name == LineageOS ]]; then if [[ $branch_name == lineage-19.0 ]]; then rom_name=$rom_name-$branch_name; fi ;fi
 if [[ $rom_name == ArrowOS ]]; then if [[ $branch_name == arrow-12.0 ]]; then rom_name=$rom_name-$branch_name; fi ;fi
@@ -82,7 +83,6 @@ if [[ $rom_name == ShapeShiftOS ]]; then if [[ $branch_name == 'android_12' ]]; 
 if [[ $rom_name == lighthouse-os ]]; then if [[ $branch_name == 'sailboat' ]]; then rom_name=$rom_name-$branch_name; fi ;fi
 
 if [[ $rom_name == LineageOS ]]; then if [[ $branch_name == lineage-16.1 ]]; then echo Only lineage-18.1, 17.1 and 15.1 is supported.; exit 1; fi ;fi
-if [[ $rom_name == LineageOS ]]; then if [[ $branch_name == lineage-16.0 ]]; then echo Only lineage-18.1, 17.1 and 15.1 is supported.; exit 1; fi ;fi
 if [[ $rom_name == LineageOS ]]; then if [[ $branch_name == lineage-15.0 ]]; then echo Only lineage-18.1, 17.1 and 15.1 is supported.; exit 1; fi ;fi
 if [[ $rom_name == NusantaraProject-ROM ]]; then if [[ $branch_name != '11' ]]; then echo Only NusantaraProject-ROM a11 is supported.; exit 1; fi ;fi
 if [[ $rom_name == ArrowOS ]]; then if [[ $branch_name == 'arrow-10.0' ]]; then echo Only ArrowOS a11 and a12 is supported.; exit 1; fi ;fi
