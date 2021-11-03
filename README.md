@@ -1,18 +1,18 @@
-AospExtended custom ROM for Redmi Note 4
+LineageOS custom ROM for ZTE Blade S6
 ==============================
 
-AospExtended [Custom ROM](https://beebom.com/best-custom-roms-android-phones/) for Redmi Note 4(code name mido)
+LineageOS [Custom ROM](https://lineageos.org/) for ZTE Blade S6(code name p839f30)
 
-[Features as video](https://www.youtube.com/watch?v=KuQ9jIVmOXY) or [Features as text](https://forum.xda-developers.com/t/rom-11-0-aospextended-rom-v8-0-unofficial-surya.4202905/)
+[Features as text](https://forum.xda-developers.com/t/rom-unofficial-lineageos-16-0-pq3a-190801-002-for-zte-blade-s6-p839f30.3977577/)
 
-[Screenshots](https://t.me/Apon77Mido/5270) or [Video](https://www.youtube.com/watch?v=KuQ9jIVmOXY)
+[Screenshots](https://upload.wikimedia.org/wikipedia/commons/3/33/LineageOS_16.0_home_screen.png)
 
-Distributed [here](https://t.me/rn4downloads/4885)
+Distributed [here](https://forum.xda-developers.com/t/rom-unofficial-lineageos-16-0-pq3a-190801-002-for-zte-blade-s6-p839f30.3977577/)
 
-Estimated installation no.: 150-500
+Estimated installation no.: 100
 
 How to use this repository
 -------------------
 
-* [Instructions if you want to develop AospExtended custom ROM as a developer](https://github.com/Apon77/mido-AospExtended-Apon77/blob/main/Instructions%20for%20developers.md)
-* [Instructions if you want to use AospExtended custom ROM in your device as a user](https://github.com/Apon77/mido-AospExtended-Apon77/blob/main/Instructions%20for%20users.md)
+* [Instructions if you want to develop AospExtended custom ROM as a developer](https://github.com/Lightwars/p839f30-LineageOS-Lightwars/blob/main/Instructions%20for%20developers.md)
+* [Instructions if you want to use AospExtended custom ROM in your device as a user](https://github.com/Lightwars/p839f30-LineageOS-Lightwars/blob/main/Instructions%20for%20users.md)
